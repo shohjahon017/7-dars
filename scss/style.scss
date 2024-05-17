@@ -1,0 +1,28 @@
+@import "./fonts";
+@import "./normalize";
+@import "./header";
+@import "./hero";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+%buttonTemplate {
+  border: none;
+  background-color: rgba(62, 168, 59, 1);
+  padding: 15px 54px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 43px;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(23, 61, 21);
+  }
+}

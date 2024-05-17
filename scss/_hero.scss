@@ -1,0 +1,53 @@
+.hero {
+  height: 762px;
+  background-image: url(../images/image\ 4.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70%;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 762px;
+    background-image: linear-gradient(
+      to right,
+      rgba(237, 255, 242) 65%,
+      rgba(237, 255, 242, 0.2),
+      rgba(237, 255, 242, 0)
+    );
+    top: 0;
+  }
+  padding-top: 201px;
+  padding-bottom: 160px;
+  .info {
+    width: 390px;
+    z-index: 100;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    h3 {
+      font-size: 43px;
+      font-weight: 600;
+      span {
+        color: rgba(62, 168, 59, 1);
+      }
+    }
+    h1 {
+      font-size: 122px;
+      font-weight: 700;
+      color: rgba(62, 168, 59, 1);
+    }
+    p {
+      font-family: "Oswald";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 31px;
+      word-wrap: none;
+      color: rgba(140, 140, 140, 1);
+    }
+    a {
+      @extend %buttontemplate;
+    }
+  }
+}
