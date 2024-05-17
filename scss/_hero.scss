@@ -1,5 +1,4 @@
 .hero {
-  height: 762px;
   background-image: url(../images/image\ 4.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -26,6 +25,7 @@
     position: relative;
     text-transform: uppercase;
     font-family: "Oswald";
+    margin-left: 389px;
     h3 {
       font-size: 43px;
       font-weight: 600;
@@ -37,17 +37,21 @@
       font-size: 122px;
       font-weight: 700;
       color: rgba(62, 168, 59, 1);
+      margin-top: 7px;
     }
     p {
       font-family: "Oswald";
       font-size: 23px;
       font-weight: 400;
       line-height: 31px;
-      word-wrap: none;
+      margin-top: -80px;
+      margin-bottom: 24px;
       color: rgba(140, 140, 140, 1);
     }
     a {
-      @extend %buttontemplate;
+      @extend %buttonTemplate;
+      text-decoration: none;
+      display: inline-block;
     }
   }
 }

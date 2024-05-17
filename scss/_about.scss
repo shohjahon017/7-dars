@@ -1,0 +1,143 @@
+.about-project {
+  padding-top: 135px;
+  padding-bottom: 95px;
+  .saw {
+    display: flex;
+    gap: 90px;
+  }
+  .video {
+    width: 643px;
+    position: relative;
+    .wrap {
+      position: absolute;
+      width: 139px;
+      height: 139px;
+      display: inline-block;
+      top: 30%;
+      left: 37%;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 12px;
+      span {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+      }
+    }
+    .multi {
+      position: absolute;
+      bottom: 14%;
+      right: -10%;
+      width: 121px;
+      height: 148px;
+      background-color: rgba(54, 70, 217, 1);
+      border-radius: 25px;
+      padding: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      h3 {
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+      }
+      h4 {
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+    .card {
+      position: absolute;
+      width: 354px;
+      height: 436px;
+      background-color: rgba(42, 232, 95, 1);
+      top: -15px;
+      left: -15px;
+      z-index: -1;
+    }
+  }
+  .info {
+    font-family: "Lato";
+    h3 {
+      font-family: "Poppins";
+      font-size: 19px;
+      font-weight: 700;
+      margin-bottom: 28px;
+      color: rgba(62, 168, 59, 1);
+    }
+    h2 {
+      font-family: "Poppins";
+      font-size: 46px;
+      font-weight: 700;
+      color: rgba(54, 55, 57, 1);
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: "Lato";
+      font-size: 16px;
+      color: rgba(54, 55, 57, 1);
+      margin-bottom: 20px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      @extend %buttonTemplate;
+      text-decoration: none;
+    }
+  }
+  .desc {
+    margin-top: 109px;
+    display: flex;
+    gap: 86px;
+  }
+  .gardening {
+    max-width: 500px;
+    display: flex;
+    gap: 20px;
+    .greeng {
+      max-width: 277px;
+      font-family: "Poppins";
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 17px;
+      color: rgba(54, 55, 57, 1);
+    }
+    .products {
+      max-width: 351px;
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23px;
+      color: rgba(54, 55, 57, 1);
+    }
+  }
+  .enhancing {
+    display: flex;
+    gap: 20px;
+    max-width: 533px;
+
+    .user {
+      max-width: 191px;
+      font-family: "Poppins";
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 28px;
+      color: rgba(54, 55, 57, 1);
+      margin-bottom: 17px;
+    }
+    .products1 {
+      max-width: 401px;
+      font-family: "Lato";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23px;
+      color: rgba(54, 55, 57, 1);
+    }
+  }
+}
